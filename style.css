@@ -43,8 +43,21 @@ h1 {
 }
 
 .click {
-    margin-top: 160px;
+    margin-top: -3px;
     font-family: 'Poppins', sans-serif;
     color: rgb(79, 79, 79);
     font-size: medium;
+}
+
+.insidetext {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 10%;
+
+}
+
+a , a::after , a:active , a:hover {
+    text-decoration: none;
 }
