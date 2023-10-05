@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 body {
     background-color: #fafafa;
+    margin: 0%;
 }
 h1 {
     font-family: 'Poppins', sans-serif;
@@ -103,6 +104,34 @@ a , a::after , a:active , a:hover {
     
 }
 
+.btn {
+    width: 100px;
+    height: 40px;
+    margin-top: -52px;
+    margin-left: -49%;
+    position: fixed;
+    /* margin-right: 80%; */
+
+    
+    border-style: solid;
+    background-color: none;
+    border-width: 1px;
+    border-color: #4a70c8;
+    border-radius: 5px;
+    font-size: 15px;
+
+    color: #4a70c8;
+    transition: background-color 0.1s ease-in-out;
+    transition: margin-left 0.2s ease-in-out;
+    transition: display 0.2s ease-in-out;
+    transition: visibility 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #4a70c8;
+    color: white;
+}
+
 @media only screen and (max-width: 1200px) {
     .box2inside {
         height: 100%;
@@ -111,4 +140,41 @@ a , a::after , a:active , a:hover {
     .box2 {
         height: 100%;
     }
+
+    .btn {
+        margin-left: -48%;
+    }
+    
 }
+
+@media only screen and (max-width: 550px) {
+    .solution {
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .btn {
+        display: none;
+        visibility: hidden;
+    }
+    .solution {
+        margin-left: 0%;
+    }
+}
+
+.whitebar {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    box-shadow: 0px 0px 15px #d1d1d1;
+}
+
+.solution {
+    margin-top: 10px;
+    font-size: x-large;
+    color: #4a70c8;
+    transition: margin-left 0.2s ease-in-out;
+}
+
