@@ -100,7 +100,9 @@ a , a::after , a:active , a:hover {
     color: #3c3c3c;
 
     line-height: 180%;
-    text-align: justify;
+    /* text-align: justify; */
+
+    text-align: center;
     
 }
 
